@@ -1,0 +1,12 @@
+mode: Mainline
+next-version: 0.8.0
+branches:
+  master:
+    tag: ''
+    increment: Patch
+  develop:
+    mode: ContinuousDeployment
+    tag: dev
+    increment: Minor
+ignore:
+  sha: []
